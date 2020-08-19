@@ -3,7 +3,7 @@ from django.shortcuts import HttpResponse
 from django.template import Context,loader
 import operator
 def home(requests):
-    return render(requests,'wcount/index.html')
+    return requests('wcount/index.html')
 def about(requests):
     return HttpResponse('<h1>About</h1><br><ul><li>Mahendra</li><li>1602-18-737-081</li></ul>')
 def hobbies(requests):
