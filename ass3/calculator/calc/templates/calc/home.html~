@@ -1,0 +1,9 @@
+<h1> Calculator</h1>
+<style>
+text-align:centre
+</style>
+<title>CALCULATOR</title>
+<form action="calc">
+	<p> Enter your Expression:<textarea cols=50 , rows=1 name ="exp",value="enter the expression"></textarea>
+	<button> evaluate </button></p>
+</form>
